@@ -2,10 +2,9 @@ pipeline {
     agent any
 
     stages{
-        stage('Setup Lemp in Lemp Server'){
+        stage('Set up root folder and configuration'){
             steps{
-		sh 'chmod +x setup.sh'
-                sh './setup.sh'
+                sh ''
             }
         }
     }

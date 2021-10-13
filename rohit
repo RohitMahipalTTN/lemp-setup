@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name 34.229.214.74;
+    server_name 54.204.168.161;
     root /var/www/html/rohit/;
 
     index index.html index.htm index.php;

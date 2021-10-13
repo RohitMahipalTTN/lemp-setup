@@ -1,4 +1,5 @@
 #!/bin/bash
-cp ./rohit /etc/nginx/sites-available/
-mkdir -p /var/www/html/rohit
+sudo cp ./rohit /etc/nginx/sites-available/
+sudo ln -s /etc/nginx/sites-available/rohit /etc/nginx/sites-enabled/
+sudo mkdir -p /var/www/html/rohit
 
